@@ -186,7 +186,7 @@ abstract.hide = function () {
             abstract.show = function () {
                 this._div.classList.remove("abstract");
                 this._div.classList.add("abstractUncollapsed");
-                this._div.innerHTML = 'Western and central zones show high Dissection Index in red/orange indicating deeply dissected terrain with strong vertical erosion, high relief, and dense drainage networks, meaning the landscape is fragmented by streams and valleys, while eastern blue areas show low Dissection Index indicating flat or gently undulating terrain with minimal valley cutting, low relief, and less stream incision.';
+                this._div.innerHTML = 'Blue areas have high Dissection Index meaning deep vertical erosion with heavily cut, rugged terrain and high relief, while red areas have low Dissection Index meaning shallow erosion with smooth, undissected terrain and low relief.';
         };
         abstract.addTo(map);
         var zoomControl = L.control.zoom({
